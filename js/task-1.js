@@ -6,7 +6,6 @@ console.log(`Number of categories: ${items.length}`);
 
 
 items.forEach(item => {
-  // Знаходимо текст заголовка h2
   const title = item.querySelector('h2').textContent;
   
   
